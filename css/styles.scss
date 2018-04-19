@@ -1,0 +1,64 @@
+.Header-title {
+  color: rgb(98, 125, 128);
+}
+
+.Section {
+  margin: 20px 5px;
+}
+
+.Section-body {
+  margin: 5px 0;
+}
+
+.Section-title {
+  color: rgb(253, 152, 39);
+  margin: 5px 0;
+}
+
+.List ::before {
+  color: rgb(253, 152, 39);
+  content: "\2022";
+  display: inline-block;
+  margin-left: -1em;
+  width: 1em;
+}
+
+.List {
+  list-style: none;
+  margin-left: 4px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+}
+
+.List--arrow {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.List--arrow ::before {
+  color: rgb(253, 152, 39);
+  content: "\2794";
+  display: inline-block;
+  margin-left: -2em;
+  width: 1.5em;
+}
+
+.Site {
+  font-family: var(--Site-font-family);
+  font-size: var(--Site-font-size);
+  padding: 20px;
+}
+
+.Teaser {
+  margin-bottom: 10px;
+}
+
+.Teaser-readMore {
+  color: rgb(149, 167, 196);
+  cursor: pointer;
+}
+
+.Teaser-body {
+  display: none;
+}
+

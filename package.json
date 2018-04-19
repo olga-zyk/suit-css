@@ -1,0 +1,19 @@
+{
+  "name": "suitcss_project",
+  "version": "1.0.0",
+  "description": "page layout using suit css",
+  "main": "index.js",
+  "dependencies": {
+    "suitcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "suitcss-preprocessor": "^4.0.0"
+  },
+  "scripts": {
+    "build": "npm run setup && npm run preprocess",
+    "preprocess": "suitcss index.css build/build.css",
+    "setup": "npm install"
+  },
+  "author": "Master Yoda",
+  "license": "ISC"
+}
